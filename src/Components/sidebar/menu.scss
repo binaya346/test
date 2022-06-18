@@ -1,0 +1,18 @@
+.navigation,
+.footer {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #09477d;
+    padding-bottom: 30px;
+    cursor: pointer;
+    span {
+      margin-left: 10px;
+    }
+  }
+}
