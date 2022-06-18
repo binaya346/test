@@ -3,11 +3,12 @@ import Search from "./search";
 import "./dashboard.scss";
 import Breadcrum from "../breadcrum";
 
-const Dashboard = () => {
+const Dashboard = (props) => {
   return (
     <main className="dashboard_content">
       <Search />
-      <Breadcrum />
+      <Breadcrum {...props} />
+      {props.children}
     </main>
   );
 };

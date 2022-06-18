@@ -24,6 +24,7 @@
     font-weight: 500;
     line-height: 26px;
     color: #09477d;
+    text-transform: uppercase;
   }
 
   &_list {
@@ -47,9 +48,8 @@
         margin-left: 15px;
       }
     }
-  }
-
-  &_item.active {
-    font-weight: 600;
+    &:last-child {
+      font-weight: 600;
+    }
   }
 }

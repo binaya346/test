@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Sidebar from "./Components/sidebar";
-import DashboardLayout from "./Components/layout/dashboardLayout";
+import CreateSlots from "./Pages/createSlots";
+import ListSlots from "./Pages/listSlots";
 
 function App() {
-  return <DashboardLayout></DashboardLayout>;
+  return <ListSlots />;
+  // return <CreateSlots />;
 }
 
 export default App;
